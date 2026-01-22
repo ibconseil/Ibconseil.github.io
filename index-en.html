@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>IB Conseil – Conseil & Formation Commerciale</title>
+
+    <!-- SEO de base -->
+    <meta name="description" content="IB Conseil accompagne entreprises, points de vente et établissements d’enseignement pour améliorer leur performance commerciale.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background-color: #0a2540;
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+        }
+
+        header img {
+            max-width: 340px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* MENU */
+        nav {
+            background-color: #0a2540;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: #163b66;
+        }
+
+        /* MENU DÉROULANT */
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 0;
+            background-color: #0a2540;
+            min-width: 260px;
+            z-index: 1000;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul li ul li a {
+            padding: 12px 20px;
+            font-weight: normal;
+        }
+
+        /* CONTENU */
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            background: white;
+            padding: 40px;
+        }
+
+        h2 {
+            color: #0a2540;
+            margin-top: 0;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #0a2540;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li ul {
+                position: static;
+            }
+
+            header img {
+                max-width: 260px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="logo-ibconseil.png" alt="Logo IB Conseil">
+    <div class="lang-switch">
+    <a href="index.html">FR</a> | 
+    <a href="index-en.html">EN</a>
+    </div>
+    <h1>IB Conseil</h1>
+    <p>Accompagnement & conseil professionnel</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+
+        <li>
+            <a href="#">Nos expertises ▼</a>
+            <ul>
+                <li><a href="Conseil-magasin.html">Optimisation des points de vente</a></li>
+                <li><a href="Formation-entreprises.html">Formation des équipes commerciales</a></li>
+                <li><a href="Formation-ecoles.html">Interventions écoles & universités</a></li>
+            </ul>
+        </li>
+
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2>Notre mission</h2>
+    <p>
+        IB Conseil accompagne les entreprises, points de vente et établissements d’enseignement dans l’amélioration de leur performance commerciale.
+Nous proposons des solutions concrètes, simples à mettre en œuvre et directement applicables sur le terrain.
+Notre objectif est d’aider chaque structure à atteindre des résultats mesurables et durables.
+    </p>
+
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+      IB Conseil est né d’une solide expérience de terrain en commerce, management et formation.
+Habitués aux enjeux opérationnels et aux objectifs chiffrés, nous adoptons une approche pragmatique, orientée résultats.
+Chaque accompagnement est personnalisé afin de répondre précisément aux besoins et contraintes de nos clients.
+    </p>
+</section>
+
+<footer>
+    © 2025 – IB Conseil
+</footer>
+
+</body>
+</html>
