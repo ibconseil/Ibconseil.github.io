@@ -42,7 +42,8 @@
         }
     </style>
 </head>
-
+<link rel="alternate" hreflang="fr" href="Conseil-magasin.html">
+<link rel="alternate" hreflang="en" href="Conseil-magasin-en.html">
 <body>
 
 <header>
@@ -84,7 +85,7 @@
 
     <!-- BLOCK 1 -->
     <div class="content-block">
-        <img src="image-organization.jpg" alt="Retail store organization">
+        <img src="image-organization.jpg" alt="Retail store organization and layout optimization">
         <div>
             <h3>Retail store optimization</h3>
             <p>
@@ -100,7 +101,7 @@
 
     <!-- BLOCK 2 -->
     <div class="content-block">
-        <img src="image-sales-performance.jpg" alt="In-store sales performance">
+        <img src="image-sales-performance.jpg" alt="In-store sales performance optimization">
         <div>
             <h3>In-store sales performance</h3>
             <p>
@@ -116,7 +117,7 @@
 
     <!-- BLOCK 3 -->
     <div class="content-block">
-        <img src="image-field-support.jpg" alt="Operational support">
+        <img src="image-field-support.jpg" alt="Operational retail consulting and field support">
         <div>
             <h3>Operational support</h3>
             <p>
