@@ -2,101 +2,118 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>IB Conseil – Accueil</title>
-    <meta name="description" content="IB Conseil accompagne entreprises, magasins et établissements d’enseignement dans l’optimisation de la performance commerciale et la formation des équipes.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Conseil – Conseil & Formation commerciale</title>
+    <meta name="description" content="IB Conseil accompagne les entreprises, points de vente et établissements d’enseignement dans l’amélioration de leur performance commerciale.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
             margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            color: #333;
         }
 
+        /* HEADER */
         header {
-            background-color: #0a2540;
+            background: #0b3c5d;
             color: white;
-            padding: 25px;
             text-align: center;
+            padding: 40px 20px;
         }
 
-        .logo {
-            max-width: 180px;
-            margin-bottom: 10px;
+        header img {
+            max-width: 200px;
+            margin-bottom: 20px;
         }
 
+        header h1 {
+            margin: 10px 0;
+        }
+
+        /* MENU */
         nav {
-            background-color: #163a5f;
-            text-align: center;
+            background: #0b3c5d;
         }
 
         nav ul {
             list-style: none;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
         }
 
         nav ul li {
-            display: inline-block;
             position: relative;
         }
 
         nav ul li a {
             display: block;
-            padding: 15px 20px;
+            padding: 15px 25px;
             color: white;
             text-decoration: none;
             font-weight: bold;
         }
 
-        nav ul li:hover {
-            background-color: #0a2540;
+        nav ul li a:hover {
+            background: #062b40;
         }
 
+        /* SOUS-MENU */
         nav ul li ul {
             display: none;
             position: absolute;
-            background-color: #163a5f;
-            min-width: 250px;
+            top: 100%;
+            left: 0;
+            background: #0b3c5d;
+            min-width: 280px;
             z-index: 1000;
+        }
+
+        nav ul li ul li {
+            width: 100%;
+        }
+
+        nav ul li ul li a {
+            padding: 12px 20px;
+            font-weight: normal;
         }
 
         nav ul li:hover ul {
             display: block;
         }
 
-        nav ul li ul li {
-            display: block;
-        }
-
+        /* CONTENU */
         section {
             max-width: 900px;
             margin: 40px auto;
-            background: white;
-            padding: 40px;
+            padding: 0 20px;
         }
 
-        h1, h2 {
-            color: #0a2540;
+        h2 {
+            color: #0b3c5d;
         }
 
+        /* FOOTER */
         footer {
-            background-color: #0a2540;
+            background: #0b3c5d;
             color: white;
             text-align: center;
             padding: 15px;
-            margin-top: 40px;
+            margin-top: 50px;
         }
     </style>
 </head>
+
 <body>
 
 <header>
-    <img src="logo-ibconseil.png" alt="Logo IB Conseil" class="logo">
+    <img src="logo-ibconseil.png" alt="Logo IB Conseil">
     <h1>IB Conseil</h1>
     <p>Accompagnement & conseil professionnel</p>
 </header>
 
-< href="#">Nos expertises ▼</a>
 <nav>
     <ul>
         <li><a href="index.html">Accueil</a></li>
@@ -104,9 +121,9 @@
         <li>
             <a href="#">Nos expertises ▼</a>
             <ul>
-                <li><a href="Conseil-magasin.html">Optimisation des points de vente</a></li>
-                <li><a href="Formation-entreprises.html">Formation équipes commerciales</a></li>
-                <li><a href="Formation-ecoles.html">Formations écoles & universités</a></li>
+                <li><a href="conseil-magasin.html">Optimisation des points de vente</a></li>
+                <li><a href="formation-entreprises.html">Formation des équipes commerciales</a></li>
+                <li><a href="formation-ecoles.html">Écoles & universités</a></li>
             </ul>
         </li>
 
@@ -118,42 +135,20 @@
     <h2>Notre mission</h2>
     <p>
         IB Conseil accompagne les entreprises, points de vente et établissements
-        d’enseignement avec des solutions simples, concrètes et directement
-        applicables pour améliorer la performance commerciale.
+        d’enseignement avec des solutions simples, concrètes et directement applicables
+        pour améliorer durablement la performance commerciale.
     </p>
 
     <h2>Qui sommes-nous ?</h2>
     <p>
-        Fort d’une expérience terrain en grande distribution et en management
-        commercial, IB Conseil propose un accompagnement pragmatique orienté
-        résultats, efficacité opérationnelle et transmission des compétences.
+        Fort d’une expérience issue du terrain, IB Conseil propose une approche pragmatique,
+        orientée résultats et efficacité, au plus proche des réalités opérationnelles
+        des entreprises et des équipes commerciales.
     </p>
 </section>
 
 <footer>
     © 2025 – IB Conseil
-</footer>
-
-</body>
-</html>
-
-    <h2>Contact</h2>
-<p>
-    📧 Email :
-    <a href="mailto:islambentoumi161@gmail.com">
-        islambentoumi161@gmail.com
-    </a>
-    <br><br>
-    📞 Téléphone :
-    <a href="tel:+33630251798">
-        06 30 25 17 98
-    </a>
-</p>
-    
-</section>
-
-<footer>
-    © 2025 - IB Conseil
 </footer>
 
 </body>
