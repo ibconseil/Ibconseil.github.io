@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IB Conseil – Retail Store Optimization</title>
+<title>IB Conseil – Retail Store Optimization & Sales Performance</title>
 
-    <!-- SEO -->
-    <meta name="description" content="IB Conseil supports retail stores in improving organization, sales performance and customer experience.">
+<meta name="description" content="IB Conseil helps retail stores optimize organization, sales performance and customer experience through practical, results-driven solutions.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
@@ -49,10 +48,10 @@
 <header>
     <img src="logo-ibconseil.png" alt="IB Conseil logo" class="logo">
 
-    <div class="lang-switch">
-        <a href="Conseil-magasin.html">FR</a> |
-        <a href="retail-consulting.html">EN</a>
-    </div>
+   <div class="lang-switch">
+    <a href="Conseil-magasin.html">FR</a> |
+    <a href="Conseil-magasin-en.html">EN</a>
+</div>
 
     <h1>IB Conseil</h1>
     <p>Professional consulting & sales training</p>
@@ -66,8 +65,8 @@
             <a href="#">Our expertise ▼</a>
             <ul>
                 <li><a href="Conseil-magasin-en.html">Retail store optimization</a></li>
-                <li><a href="formation-entreprises-en.htm">Sales team training</a></li>
-                <li><a href="formation-ecoles-en.html">Schools & universities</a></li>
+                <li><a href="Formation-entreprises-en.html">Sales team training</a></li>
+                <li><a href="Formation-ecoles-en.html">Schools & universities</a></li>
             </ul>
         </li>
 
