@@ -2,39 +2,87 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>IB Conseil</title>
+    <title>IB Conseil – Accueil</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
             margin: 0;
-            padding: 0;
         }
+
         header {
             background-color: #0a2540;
             color: white;
-            padding: 30px;
+            padding: 25px;
             text-align: center;
         }
-        section {
-            padding: 40px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
+
+        .logo {
+            max-width: 180px;
+            margin-bottom: 10px;
         }
+
+        nav {
+            background-color: #163a5f;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li:hover {
+            background-color: #0a2540;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #163a5f;
+            min-width: 250px;
+            z-index: 1000;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul li ul li {
+            display: block;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+        }
+
         h1, h2 {
             color: #0a2540;
         }
+
         footer {
             background-color: #0a2540;
             color: white;
             text-align: center;
             padding: 15px;
             margin-top: 40px;
-        }
-        .logo {
-    max-width: 200px;
-    margin-bottom: 15px;
         }
     </style>
 </head>
@@ -46,59 +94,42 @@
     <p>Accompagnement & conseil professionnel</p>
 </header>
 
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li>
+            <a href="#">Nos expertises ▼</a>
+            <ul>
+                <li><a href="conseil-magasins.html">Optimisation des points de vente</a></li>
+                <li><a href="formation-entreprises.html">Formation équipes commerciales</a></li>
+                <li><a href="formation-ecoles.html">Formations écoles & universités</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
 <section>
-    <h2>Qui sommes-nous ?</h2>
+    <h2>Notre mission</h2>
     <p>
-        <h2>Notre mission</h2>
-<p>
-IB Conseil accompagne les entreprises dans leurs projets avec des solutions simples,
-efficaces et adaptées à leurs besoins.
-</p>
-
-<h2>Une expertise issue du terrain</h2>
-<p>
-Fort de 10 années d’expérience en tant que commercial chez <strong>Nestlé</strong> et de
-2 années de manager en hypermarché chez <strong>Casino</strong>, j’ai acquis une connaissance
-approfondie de la grande distribution, des mécanismes de la performance commerciale
-et de la gestion opérationnelle des points de vente.
-</p>
-
-<p>
-Habitué aux exigences du terrain, aux objectifs chiffrés et au pilotage d’équipes,
-j’ai développé une approche pragmatique, orientée efficacité, résultats et amélioration
-continue.
-</p>
-
-<h2>Accompagnement des entreprises et points de vente</h2>
-<p>
-Aujourd’hui, je mets cette expertise au service des entreprises souhaitant former et
-structurer leurs équipes commerciales, ainsi que des points de vente désireux
-d’optimiser leur organisation, leurs ventes et leur performance globale, à travers
-des solutions concrètes et directement applicables.
-</p>
-
-<h2>Interventions auprès des écoles et universités</h2>
-<p>
-En parallèle de mon activité de conseil, j’ai exercé en tant qu’intervenant en
-enseignement supérieur, où j’ai enseigné pendant 2 ans les techniques de vente et
-d’achat auprès d’étudiants en 3<sup>e</sup> année de BUT Techniques de Commercialisation.
-</p>
-
-<p>
-Cette expérience pédagogique me permet d’adapter mon discours aux enjeux
-académiques tout en apportant une vision concrète et actuelle du terrain.
-J’accompagne aujourd’hui les écoles de commerce et universités dans la transmission
-de compétences opérationnelles, en lien direct avec les attentes du marché et des
-entreprises.
-</p>
+        IB Conseil accompagne les entreprises, points de vente et établissements
+        d’enseignement avec des solutions simples, concrètes et directement
+        applicables pour améliorer la performance commerciale.
     </p>
 
-    <h2>Nos services</h2>
-    <ul>
-        <li>Conseil stratégique</li>
-        <li>Accompagnement personnalisé</li>
-        <li>Analyse & optimisation</li>
-    </ul>
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+        Fort d’une expérience terrain en grande distribution et en management
+        commercial, IB Conseil propose un accompagnement pragmatique orienté
+        résultats, efficacité opérationnelle et transmission des compétences.
+    </p>
+</section>
+
+<footer>
+    © 2025 – IB Conseil
+</footer>
+
+</body>
+</html>
 
     <h2>Contact</h2>
 <p>
