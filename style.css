@@ -118,3 +118,37 @@ button:hover {
 .lang-switch a:hover {
     text-decoration: underline;
 }
+/* BLOCS AVEC IMAGE – STYLE UNIFIÉ */
+.content-block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.content-block img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.content-block h3 {
+    margin-top: 0;
+    color: #0a2540;
+}
+
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+    .content-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content-block img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+}
