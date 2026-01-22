@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>IB Conseil – Optimisation des points de vente</title>
+
+    <!-- SEO -->
+    <meta name="description" content="IB Conseil accompagne les points de vente dans l’optimisation de leur organisation, de leur performance commerciale et de l’expérience client.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
-    <meta name="description" content="IB Conseil accompagne entreprises, magasins et établissements d’enseignement dans l’optimisation de la performance commerciale et la formation des équipes.">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* BLOCS DE CONTENU AVEC IMAGE */
+        .content-block {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .content-block img {
+            width: 280px;
+            border-radius: 8px;
+        }
+
+        .content-block h3 {
+            margin-top: 0;
+            color: #0a2540;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .content-block {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .content-block img {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
 <header>
@@ -15,7 +52,6 @@
     <p>Accompagnement & conseil professionnel</p>
 </header>
 
-
 <nav>
     <ul>
         <li><a href="index.html">Accueil</a></li>
@@ -23,42 +59,71 @@
         <li>
             <a href="#">Nos expertises ▼</a>
             <ul>
-                <li><a href="Conseil-magasin.html">Optimisation des points de vente</a></li>
-                <li><a href="Formation-entreprises.html">Formation équipes commerciales</a></li>
-                <li><a href="Formation-ecoles.html">Formations écoles & universités</a></li>
+                <li><a href="conseil-magasin.html">Optimisation des points de vente</a></li>
+                <li><a href="formation-entreprises.html">Formation équipes commerciales</a></li>
+                <li><a href="formation-ecoles.html">Formations écoles & universités</a></li>
             </ul>
         </li>
 
         <li><a href="contact.html">Contact</a></li>
     </ul>
 </nav>
+
 <section>
     <h2>Optimisation des points de vente</h2>
     <p>
-        Accompagnement des magasins pour améliorer l’organisation,
-        le merchandising et la performance commerciale.
+        IB Conseil accompagne les magasins dans l’amélioration de leur organisation,
+        de leur performance commerciale et de l’expérience client.
     </p>
 
-    <ul>
-        <li>Optimisation des points de vente</li>
-        
-      Nous accompagnons les points de vente dans l’optimisation de leur organisation, de leur offre et de leur parcours client.
-L’objectif est d’améliorer l’expérience en magasin tout en augmentant les performances commerciales.
-Nos recommandations sont basées sur l’observation terrain et l’analyse des pratiques existantes.  
-        
-        <li>Performance commerciale en magasin</li>
-        
-Nous intervenons sur les leviers clés de la performance : implantation, merchandising, gestion de l’offre et animation commerciale.
-Chaque action vise à maximiser le chiffre d’affaires et la rentabilité du point de vente.
-Les solutions proposées sont concrètes, mesurables et adaptées à la réalité du terrain.
-        
-        <li>Accompagnement opérationnel</li>
+    <!-- BLOC 1 -->
+    <div class="content-block">
+        <img src="image-organisation-magasin.jpg" alt="Organisation du point de vente">
+        <div>
+            <h3>Optimisation des points de vente</h3>
+            <p>
+                Nous accompagnons les points de vente dans l’optimisation de leur organisation,
+                de leur offre et de leur parcours client.
+            </p>
+            <p>
+                L’objectif est d’améliorer l’expérience en magasin tout en augmentant
+                les performances commerciales grâce à des actions concrètes.
+            </p>
+        </div>
+    </div>
 
-IB Conseil travaille aux côtés des équipes en magasin pour garantir une mise en œuvre efficace des actions recommandées.
-Nous privilégions une approche collaborative afin d’impliquer les équipes et assurer la pérennité des résultats.
-L’accompagnement peut être ponctuel ou inscrit dans la durée selon les besoins.
-        
-    </ul>
+    <!-- BLOC 2 -->
+    <div class="content-block">
+        <img src="image-performance-commerciale.jpg" alt="Performance commerciale en magasin">
+        <div>
+            <h3>Performance commerciale en magasin</h3>
+            <p>
+                Nous intervenons sur les leviers clés de la performance : implantation,
+                merchandising, gestion de l’offre et animation commerciale.
+            </p>
+            <p>
+                Chaque action vise à maximiser le chiffre d’affaires et la rentabilité
+                du point de vente de manière durable.
+            </p>
+        </div>
+    </div>
+
+    <!-- BLOC 3 -->
+    <div class="content-block">
+        <img src="image-accompagnement-terrain.jpg" alt="Accompagnement opérationnel">
+        <div>
+            <h3>Accompagnement opérationnel</h3>
+            <p>
+                IB Conseil travaille aux côtés des équipes en magasin pour garantir
+                une mise en œuvre efficace des actions recommandées.
+            </p>
+            <p>
+                L’accompagnement peut être ponctuel ou inscrit dans la durée,
+                selon les objectifs et les enjeux du point de vente.
+            </p>
+        </div>
+    </div>
+
 </section>
 
 <footer>
