@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>IB Conseil – Optimisation des points de vente</title>
+    <title>IB Conseil – Retail Store Optimization</title>
 
     <!-- SEO -->
-    <meta name="description" content="IB Conseil accompagne les points de vente dans l’optimisation de leur organisation, de leur performance commerciale et de l’expérience client.">
+    <meta name="description" content="IB Conseil supports retail stores in improving organization, sales performance and customer experience.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
 
     <style>
-        /* BLOCS DE CONTENU AVEC IMAGE */
+        /* CONTENT BLOCKS WITH IMAGE */
         .content-block {
             display: flex;
             gap: 30px;
@@ -47,83 +47,86 @@
 <body>
 
 <header>
-    <img src="logo-ibconseil.png" alt="Logo IB Conseil" class="logo">
+    <img src="logo-ibconseil.png" alt="IB Conseil logo" class="logo">
+
     <div class="lang-switch">
-    <a href="index.html">FR</a> | 
-    <a href="index-en.html">EN</a>
-</div>
+        <a href="Conseil-magasin.html">FR</a> |
+        <a href="retail-consulting.html">EN</a>
+    </div>
+
     <h1>IB Conseil</h1>
-    <p>Accompagnement & conseil professionnel</p>
+    <p>Professional consulting & sales training</p>
 </header>
 
 <nav>
     <ul>
-        <li><a href="index.html">Accueil</a></li>
+        <li><a href="index-en.html">Home</a></li>
 
         <li>
-            <a href="#">Nos expertises ▼</a>
+            <a href="#">Our expertise ▼</a>
             <ul>
-                <li><a href="Conseil-magasin.html">Optimisation des points de vente</a></li>
-                <li><a href="Formation-entreprises.html">Formation équipes commerciales</a></li>
-                <li><a href="Formation-ecoles.html">Formations écoles & universités</a></li>
+                <li><a href="Conseil-magasin-en.html">Retail store optimization</a></li>
+                <li><a href="formation-entreprises-en.htm">Sales team training</a></li>
+                <li><a href="formation-ecoles-en.html">Schools & universities</a></li>
             </ul>
         </li>
 
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact-en.html">Contact</a></li>
     </ul>
 </nav>
 
 <section>
-    <h2>Optimisation des points de vente</h2>
+    <h2>Retail Store Optimization</h2>
     <p>
-        IB Conseil accompagne les magasins dans l’amélioration de leur organisation,
-        de leur performance commerciale et de l’expérience client.
+        IB Conseil supports retail stores in improving their organization,
+        sales performance and customer experience through practical
+        and results-oriented solutions.
     </p>
 
-    <!-- BLOC 1 -->
+    <!-- BLOCK 1 -->
     <div class="content-block">
-        <img src="image-organisation-magasin.jpg" alt="Organisation du point de vente">
+        <img src="image-organization.jpg" alt="Retail store organization">
         <div>
-            <h3>Optimisation des points de vente</h3>
+            <h3>Retail store optimization</h3>
             <p>
-                Nous accompagnons les points de vente dans l’optimisation de leur organisation,
-                de leur offre et de leur parcours client.
+                We support retail stores in optimizing their organization,
+                product offering and customer journey.
             </p>
             <p>
-                L’objectif est d’améliorer l’expérience en magasin tout en augmentant
-                les performances commerciales grâce à des actions concrètes.
+                The objective is to enhance the in-store experience while
+                increasing sales performance through concrete actions.
             </p>
         </div>
     </div>
 
-    <!-- BLOC 2 -->
+    <!-- BLOCK 2 -->
     <div class="content-block">
-        <img src="image-performance-commerciale.jpg" alt="Performance commerciale en magasin">
+        <img src="image-sales-performance.jpg" alt="In-store sales performance">
         <div>
-            <h3>Performance commerciale en magasin</h3>
+            <h3>In-store sales performance</h3>
             <p>
-                Nous intervenons sur les leviers clés de la performance : implantation,
-                merchandising, gestion de l’offre et animation commerciale.
+                We focus on key performance drivers such as store layout,
+                merchandising, assortment management and sales activation.
             </p>
             <p>
-                Chaque action vise à maximiser le chiffre d’affaires et la rentabilité
-                du point de vente de manière durable.
+                Each action aims to sustainably maximize turnover
+                and store profitability.
             </p>
         </div>
     </div>
 
-    <!-- BLOC 3 -->
+    <!-- BLOCK 3 -->
     <div class="content-block">
-        <img src="image-accompagnement-terrain.jpg" alt="Accompagnement opérationnel">
+        <img src="image-field-support.jpg" alt="Operational support">
         <div>
-            <h3>Accompagnement opérationnel</h3>
+            <h3>Operational support</h3>
             <p>
-                IB Conseil travaille aux côtés des équipes en magasin pour garantir
-                une mise en œuvre efficace des actions recommandées.
+                IB Conseil works alongside in-store teams to ensure
+                effective implementation of recommended actions.
             </p>
             <p>
-                L’accompagnement peut être ponctuel ou inscrit dans la durée,
-                selon les objectifs et les enjeux du point de vente.
+                Support can be provided on a short-term or long-term basis,
+                depending on the store’s objectives and challenges.
             </p>
         </div>
     </div>
