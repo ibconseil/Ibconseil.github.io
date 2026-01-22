@@ -104,3 +104,17 @@ button {
 button:hover {
     background-color: #163a5f;
 }
+.lang-switch {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.lang-switch a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.lang-switch a:hover {
+    text-decoration: underline;
+}
