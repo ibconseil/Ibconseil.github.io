@@ -1,10 +1,18 @@
+/* ===============================
+   BASE GÉNÉRALE
+   =============================== */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     margin: 0;
+    color: #333;
 }
 
-/* HEADER */
+/* ===============================
+   HEADER
+   =============================== */
+
 header {
     background-color: #0a2540;
     color: white;
@@ -20,7 +28,10 @@ header {
     margin-bottom: 25px;
 }
 
-/* MENU */
+/* ===============================
+   MENU PRINCIPAL
+   =============================== */
+
 nav {
     background-color: #163a5f;
 }
@@ -49,7 +60,10 @@ nav ul li:hover {
     background-color: #0a2540;
 }
 
-/* SOUS-MENU */
+/* ===============================
+   SOUS-MENU
+   =============================== */
+
 nav ul li ul {
     display: none;
     position: absolute;
@@ -66,7 +80,10 @@ nav ul li ul li {
     display: block;
 }
 
-/* CONTENU */
+/* ===============================
+   CONTENU
+   =============================== */
+
 section {
     max-width: 900px;
     margin: 40px auto;
@@ -74,86 +91,12 @@ section {
     padding: 40px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #0a2540;
 }
 
-/* FOOTER */
-footer {
-    background-color: #0a2540;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-}
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-}
-
-button {
-    background-color: #0a2540;
-    color: white;
-    padding: 12px 25px;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #163a5f;
-}
-.lang-switch {
-    margin-top: 15px;
-    font-weight: bold;
-}
-
-.lang-switch a {
-    color: white;
-    text-decoration: none;
-    margin: 0 5px;
-}
-
-.lang-switch a:hover {
-    text-decoration: underline;
-}
-/* BLOCS AVEC IMAGE – STYLE UNIFIÉ */
-.content-block {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
-.content-block img {
-    width: 280px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 8px;
-    flex-shrink: 0;
-}
-
-.content-block h3 {
-    margin-top: 0;
-    color: #0a2540;
-}
-
-/* RESPONSIVE MOBILE */
-@media (max-width: 768px) {
-    .content-block {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .content-block img {
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-    }
-}
 /* ===============================
-   IMAGES DE CONTENU – STANDARD SITE
+   BLOCS AVEC IMAGE – STANDARD SITE
    =============================== */
 
 .content-block {
@@ -172,14 +115,80 @@ button:hover {
     flex-shrink: 0;
 }
 
-/* Titres des blocs */
 .content-block h3 {
     margin-top: 0;
-    color: #0a2540;
 }
 
-/* Responsive mobile */
+/* ===============================
+   FORMULAIRES
+   =============================== */
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #0a2540;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #163a5f;
+}
+
+/* ===============================
+   SÉLECTEUR DE LANGUE
+   =============================== */
+
+.lang-switch {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.lang-switch a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.lang-switch a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   FOOTER
+   =============================== */
+
+footer {
+    background-color: #0a2540;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* ===============================
+   RESPONSIVE MOBILE
+   =============================== */
+
 @media (max-width: 768px) {
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li ul {
+        position: static;
+    }
+
     .content-block {
         flex-direction: column;
         text-align: center;
@@ -189,5 +198,13 @@ button:hover {
         width: 100%;
         max-width: 360px;
         height: auto;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .logo {
+        max-width: 260px;
     }
 }
