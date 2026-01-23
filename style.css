@@ -30,22 +30,18 @@ header {
 }
 
 /* ===============================
-   DRAPEAUX – SELECTEUR DE LANGUE
+   SELECTEUR DE LANGUE – DRAPEAUX
    =============================== */
 
 .lang-switch {
     display: flex;
     justify-content: center;
-    gap: 12px;
-    margin: 15px 0 25px;
-}
-
-.lang-switch a {
-    display: inline-block;
+    gap: 14px;
+    margin-bottom: 20px;
 }
 
 .lang-switch img {
-    width: 34px;          /* taille idéale */
+    width: 34px;
     height: auto;
     border-radius: 4px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
@@ -55,6 +51,10 @@ header {
 .lang-switch img:hover {
     transform: scale(1.08);
     opacity: 0.9;
+}
+
+.lang-switch a.active img {
+    outline: 2px solid white;
 }
 
 /* Hover */
