@@ -30,28 +30,36 @@ header {
 }
 
 /* ===============================
-   SÉLECTEUR DE LANGUE
+   SÉLECTEUR DE LANGUE AVEC DRAPEAUX
    =============================== */
 
 .lang-switch {
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 .lang-switch a {
-    color: white;
-    text-decoration: none;
+    display: inline-block;
     margin: 0 6px;
 }
 
-.lang-switch a:hover {
-    text-decoration: underline;
+.lang-switch img {
+    width: 34px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.4);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Hover */
+.lang-switch img:hover {
+    transform: scale(1.1);
     opacity: 0.85;
 }
 
 /* Langue active */
-.lang-switch a.active {
-    text-decoration: underline;
+.lang-switch a.active img {
+    border: 2px solid white;
+    transform: scale(1.05);
 }
 
 /* ===============================
