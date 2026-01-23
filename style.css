@@ -208,3 +208,16 @@ footer {
         max-width: 260px;
     }
 }
+/* LANG SWITCH – HEADER (FORÇAGE COULEUR BLANCHE) */
+header .lang-switch a {
+    color: white !important;
+}
+
+header .lang-switch a:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+.lang-switch a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
