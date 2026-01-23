@@ -30,24 +30,31 @@ header {
 }
 
 /* ===============================
-   SÉLECTEUR DE LANGUE AVEC DRAPEAUX
+   DRAPEAUX – SELECTEUR DE LANGUE
    =============================== */
 
 .lang-switch {
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 15px 0 25px;
 }
 
 .lang-switch a {
     display: inline-block;
-    margin: 0 6px;
 }
 
 .lang-switch img {
-    width: 34px;
+    width: 34px;          /* taille idéale */
     height: auto;
     border-radius: 4px;
-    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.lang-switch img:hover {
+    transform: scale(1.08);
+    opacity: 0.9;
 }
 
 /* Hover */
